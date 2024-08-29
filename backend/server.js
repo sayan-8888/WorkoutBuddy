@@ -19,14 +19,14 @@ app.use((req, res, next) => {
 // routes
 app.use('/api/workouts', workoutRoutes)
 
+const port = process.env.PORT || 5000;
+
 // connect to db
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     console.log('connected to database')
     // listen to port
-    app.listen(process.env.PORT, () => {
-      console.log('listening for requests on port', process.env.PORT)
-    })
+    app.listen(port, () => console.log("listening for requests on  ${port}!"));
   })
   .catch((err) => {
     console.log(err)
