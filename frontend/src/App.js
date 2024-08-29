@@ -13,7 +13,7 @@ function App() {
         <div className="pages">
           <Routes>
             <Route
-              path="https://workoutbuddy-backend-au73.onrender.com/"
+              path="/"
               element={<Home />}
             />
           </Routes>
