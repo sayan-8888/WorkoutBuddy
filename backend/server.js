@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require("cors"); // Import CORS
+const cors = require("cors");
 const workoutRoutes = require("./routes/workouts");
 mongoose.set("strictQuery", false);
 
@@ -12,7 +12,7 @@ const app = express();
 // middleware
 app.use(
   cors({
-   origin: "https://workoutbuddy-frontend-mv6w.onrender.com", // Replace with your actual frontend URL
+    origin: "https://workoutbuddy-frontend-url.com", // Replace with your actual frontend URL
   })
 );
 app.use(express.json());
