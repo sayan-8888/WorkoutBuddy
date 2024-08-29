@@ -12,9 +12,9 @@ function App() {
         <Navbar />
         <div className="pages">
           <Routes>
-            <Route 
-              path="/" 
-              element={<Home />} 
+            <Route
+              path="https://workoutbuddy-backend-au73.onrender.com/"
+              element={<Home />}
             />
           </Routes>
         </div>
