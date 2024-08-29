@@ -25,6 +25,11 @@ app.use((req, res, next) => {
 // routes
 app.use("/api/workouts", workoutRoutes);
 
+// Root route handler
+app.get("/", (req, res) => {
+  res.send("Welcome to the Workout Buddy API!");
+});
+
 const port = process.env.PORT || 5000;
 
 // connect to db
