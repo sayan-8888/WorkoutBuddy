@@ -12,7 +12,7 @@ const app = express();
 // middleware
 app.use(
   cors({
-    origin: "https://workoutbuddy-frontend-url.com", // Replace with your actual frontend URL
+    origin: "https://workoutbuddy-frontend-mv6w.onrender.com/", // Replace with your actual frontend URL
   })
 );
 app.use(express.json());
