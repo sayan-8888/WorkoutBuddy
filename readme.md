@@ -1,2 +1,3 @@
-frontend link : https://workoutbuddy-frontend-mv6w.onrender.com
-backend link : https://workoutbuddy-backend-au73.onrender.com
+Author - Sayan Chakraborty.
+Frontend Link : https://workoutbuddy-frontend-mv6w.onrender.com
+Backend Link : https://workoutbuddy-backend-au73.onrender.com
